@@ -1,0 +1,43 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Please remove secrets and private data before submitting.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include the command, team names, and minimal steps.
+      placeholder: |
+        uv run fifa-predict ...
+    validations:
+      required: true
+  - type: input
+    id: cutoff
+    attributes:
+      label: Data cutoff
+      description: Include the prediction `as_of` timestamp when relevant.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version, and uv version.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Paste a short traceback or output. Do not include API tokens.
+      render: shell

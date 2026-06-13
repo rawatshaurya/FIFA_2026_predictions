@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a focused improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What analysis or workflow problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the interface, data, or modeling change.
+    validations:
+      required: true
+  - type: textarea
+    id: time_safety
+    attributes:
+      label: Point-in-time considerations
+      description: Explain when the proposed inputs become available relative to kickoff.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

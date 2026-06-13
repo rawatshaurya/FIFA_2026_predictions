@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.cmd text eol=crlf
+*.py text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.ipynb text eol=lf

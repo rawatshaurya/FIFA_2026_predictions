@@ -1,0 +1,4 @@
+fixture_id,match_date,team,player_id,lineup_status,announced_at,source
+,2026-06-13T01:00:00Z,United States,ea_227796,starter,2026-06-12T23:45:00Z,example
+,2026-06-13T01:00:00Z,United States,ea_238744,starter,2026-06-12T23:45:00Z,example
+,2026-06-13T01:00:00Z,Paraguay,ea_230977,starter,2026-06-12T23:45:00Z,example

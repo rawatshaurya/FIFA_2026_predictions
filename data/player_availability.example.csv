@@ -1,0 +1,3 @@
+fixture_id,match_date,team,player_id,status,availability_probability,reported_at,source
+,2026-06-13T01:00:00Z,United States,ea_227796,available,1.0,2026-06-12T18:00:00Z,example
+,2026-06-13T01:00:00Z,Paraguay,ea_230977,doubtful,0.5,2026-06-12T18:00:00Z,example
